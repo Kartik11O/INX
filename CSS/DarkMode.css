@@ -1,0 +1,76 @@
+
+  .light {
+    position: absolute;
+    bottom: 15px;
+    left: 34px;
+  }
+  
+  .toggle {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 999;
+  }
+  .checkbox {
+    display: none;
+  }
+  .icon {
+    width: 50%;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    z-index: 1;
+  }
+  .ball {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 7px;
+    transition: 0.2s;
+  }
+  /* ---- ---- Light Mode ---- ---- */
+  .light .toggle {
+    background: linear-gradient(145deg, #e1e1e1, #fff);
+  }
+  .light .icon--light {
+    color: #fafafa;
+  }
+  .light .icon--dark {
+    color: #151d2a;
+  }
+  .light .ball {
+    background-color: #151d2a;
+  }
+  /* ---- ---- Dark Mode ---- ---- */
+  .dark {
+    background-color: #000000 !important; 
+    background-image: none !important;
+  }
+  .dark-me-1{
+    background-color: #000000 !important;
+  }
+  .dark-me-Form-fill{
+    background-color: #a60000 !important;
+  }
+  .dark .toggle {
+    background: #151d2a;
+  }
+  .dark .icon--light {
+    color: #fafafa;
+  }
+  .dark .icon--dark {
+    color: #0e131b;
+  }
+  .dark .ball {
+    background-color: #fafafa;
+    transition: 0.3s;
+    transform: translateX(60px);
+  }
+  

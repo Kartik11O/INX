@@ -1,0 +1,45 @@
+.Theme-one{
+    background-color: transparent !important;
+    background-image: url(test3.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.Theme-one-Form-fill{
+    background-color: transparent !important;
+    background-image: url(1.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.Theme-two{
+    background-color: transparent !important;
+    background-image: url(b4.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.Theme-two-Form-fill{
+    background-color: transparent !important;
+    background-image: url(test.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.Theme-three{
+    background-color: transparent !important;
+    background-image: url(bw.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Theme-three-Form-fill{
+    background-color: transparent !important;
+    background-image: url(test4.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

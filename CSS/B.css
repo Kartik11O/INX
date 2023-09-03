@@ -1,0 +1,59 @@
+.A{
+    animation: A 2s both;
+}
+@keyframes A {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+.B{
+    animation: B 2s both 0.2s;
+   
+}
+@keyframes B {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+.C{
+    animation: C 2s both 0.3s;
+   
+}
+@keyframes C {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+.D{
+    animation: D 2s both 0.4s;
+   
+}
+@keyframes D {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+.E{
+    animation: E 2s both 0.5s;
+   
+}
+@keyframes E {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+}
+.F{
+    animation: F 2s both 2s;
+   
+}
+@keyframes F {
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+}

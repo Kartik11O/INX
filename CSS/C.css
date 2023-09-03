@@ -1,0 +1,115 @@
+#section-2 {
+    position: absolute;
+    top: 0;
+    left: 22px;
+    width: clamp(76px,5vw,76px);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#Theme-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 1rem;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    font-family: "Logo";
+    background: #000;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#drop {
+    position: relative;
+    width: clamp(76px,5vw,76px);
+    height: clamp(201px,27vh,201px);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    display: none;
+}
+
+#drop-container {
+    position: relative;
+    width: clamp(76px,5vw,76px);
+    height: clamp(201px,27vh,201px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BOX {
+    width: 55px;
+    height: 55px;
+    border-radius: 1rem;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    font-family: "Logo";
+    background: #000000;
+    color: #fff;
+    background-image: url(1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    cursor: pointer;
+}
+
+
+ .H {
+    animation: H 2s both;
+}
+
+@keyframes H {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+
+.I {
+    animation: I 1.4s both 0.2s;
+    background-image: url(test.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+@keyframes I {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}
+
+.J {
+    animation: J 0.9s both 0.3s;
+    background-image: url(test4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+@keyframes J {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+} 
+
+
+/*Social Buttons  */
+#section-3{
+    position: absolute;
+    width: clamp(76px,5vw,76px);
+    height: clamp(201px,27vh,201px);
+    background-color: #000;
+}
