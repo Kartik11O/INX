@@ -9,16 +9,16 @@ $(document).ready(() => {
     $("#Form-fill").toggleClass("Form-fill2")
 
     // Alert for theme in Dark Mode
-      $(".H , .I , .J").off("click").on('click',function(){
-        if(Container_1.hasClass("dark")){
-          alert("Themes won't work in dark mode")
-        }
+    //   $(".H , .I , .J").off("click").on('click',function(){
+    //     if(Container_1.hasClass("dark")){
+    //       alert("Themes won't work in dark mode")
+    //     }
 
-    else{
-    // Nothing will happen
-    }
+    // else{
+    // // Nothing will happen
+    // }
 
-      }) 
+    //   }) 
   })
   
 })

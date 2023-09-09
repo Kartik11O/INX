@@ -5,12 +5,12 @@ $(document).ready(() => {
         $("#Form-fill").toggleClass("Theme-one-Form-fill")
        
         // This will add opcaity to Holder div
-        if ($("#Container-1").hasClass("Theme-one")) {
-            $("#Holder").addClass("Holder-opacity")
-        }
-        else {
-            $("#Holder").removeClass("Holder-opacity")
-        }
+        // if ($("#Container-1").hasClass("Theme-one")) {
+        //     $("#Holder").addClass("Holder-opacity")
+        // }
+        // else {
+        //     $("#Holder").removeClass("Holder-opacity")
+        // }
 
         $("#Container-1").removeClass("Theme-three")
         $("#Form-fill").removeClass("Theme-three-Form-fill")
@@ -30,15 +30,15 @@ $(document).ready(() => {
         $("#Form-fill").removeClass("Theme-three-Form-fill")
         $("#Container-1").toggleClass("Theme-two")
         $("#Form-fill").toggleClass("Theme-two-Form-fill")
-        $("#Holder").addClass("Holder-opacity")
+        // $("#Holder").addClass("Holder-opacity")
 
-        // This will add opcaity to Holder div
-        if ($("#Container-1").hasClass("Theme-two")) {
-            $("#Holder").addClass("Holder-opacity")
-        }
-        else {
-            $("#Holder").removeClass("Holder-opacity")
-        }
+       // This will add opcaity to Holder div
+        // if ($("#Container-1").hasClass("Theme-two")) {
+        //     $("#Holder").addClass("Holder-opacity")
+        // }
+        // else {
+        //     $("#Holder").removeClass("Holder-opacity")
+        // }
 
     })
 })
@@ -54,15 +54,15 @@ $(document).ready(() => {
         $("#Form-fill").removeClass("Theme-two-Form-fill")
         $("#Container-1").toggleClass("Theme-three")
         $("#Form-fill").toggleClass("Theme-three-Form-fill")
-        $("#Holder").addClass("Holder-opacity")
+        // $("#Holder").addClass("Holder-opacity")
 
         // This will add opcaity to Holder div
-        if ($("#Container-1").hasClass("Theme-three")) {
-            $("#Holder").addClass("Holder-opacity")
-        }
-        else {
-            $("#Holder").removeClass("Holder-opacity")
-        }
+        // if ($("#Container-1").hasClass("Theme-three")) {
+        //     $("#Holder").addClass("Holder-opacity")
+        // }
+        // else {
+        //     $("#Holder").removeClass("Holder-opacity")
+        // }
 
     })
 })

@@ -19,6 +19,7 @@ body{
     position: absolute;
     top: 0;
     left: 0px;
+    justify-content: center;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -154,12 +155,6 @@ ul li a {
     }
     
 }
-
-
-#Section-1 {
-    /* height: 1451px; */
-}
-
 
 
 /* This hide the Social PC version */
