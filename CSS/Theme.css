@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    transition: 5s;
 }
 .Theme-one-Form-fill{
     background-color: transparent !important;
@@ -42,4 +43,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.Holder-opacity{
+    opacity: 0.9 !important;
+}

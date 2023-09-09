@@ -125,7 +125,6 @@ input{
     background: #00000099;
     /* background: #0000005e; */
     color: #fff;
-    font-family: var(--font);
 }
 #btn{
     background-color: #28282B;
