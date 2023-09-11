@@ -23,11 +23,13 @@ body{
     border-radius: 15px 15px 0px 0px;
 }
 #Section-1 { 
-    height: 850px;
+    /* height: 850px; */
+    height: clamp(94vh,753px,753px);
 }
 #Container-1 {
     align-items: flex-start;
-    height: 850px;
+    /* height: 850px; */
+    height: clamp(94vh,753px,753px);
 }
 
 /*Holder */
@@ -59,7 +61,7 @@ body{
 }
 /* Font size in para */
 #para {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 
@@ -175,7 +177,8 @@ ul li a {
 }
 #Logo {
     position: relative;
-   height: 734px;
+   /* height: 734px; */
+   height: clamp(656px,87vh,734px);
 }
 #Phone-btn-close{
     position: absolute;
