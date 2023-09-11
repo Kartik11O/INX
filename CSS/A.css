@@ -105,7 +105,7 @@ body {
 
 }
 #form{
-    width: clamp(491px,32vw,491px);
+    width: clamp(300px,32vw,491px);
     height: clamp(399px,26vw,399px);
     display: none;
     justify-content: center;
@@ -146,10 +146,19 @@ input{
     border-radius: 0px;
     color: #ffffff;
 }
-#para{
+
+#Para-container{
     display: none;
+     background: #000000d6;
+     width: clamp(260px,30vw,460px);
+    height: 89px;
     text-align: center;
-    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+#para{
+    text-align: center;
+    width: 91%;
     color: #ffffffe6;
     font-family: var(--Headline);
 }

@@ -1,0 +1,7 @@
+<form accept-charset='UTF-8' action='https://app.formester.com/forms/e25dcfc1-4a4b-4698-91a2-eb4159905a9f/submissions' method='POST'>
+
+  <input class="A" name="entry.1104950753" type="name" placeholder="Name">
+                            <input class="B" name="entry.424725466" type="text" placeholder="Email">
+                            <input class="C" name="entry.1137745810" type="text" placeholder="Age">
+                            <input class="D" name="entry.696200276" placeholder="Phone no.">
+                            <button class="E" id="btn">Send Details</button>

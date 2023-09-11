@@ -1,7 +1,7 @@
 let Holder = document.getElementById("Holder")
 let Form_fill = document.getElementById("Form-fill")
 let Form = document.getElementById("form")
-let para = document.getElementById("para")
+let para = document.getElementById("Para-container")
 
 
 
@@ -21,7 +21,7 @@ function FormOpen() {
         Form_fill.classList.remove("Form-show2")
         Form_fill.classList.add("Form-show")
         Form.style.display = "flex"
-        para.style.display = "block"
+        para.style.display = "flex"
         // $("#Section-1 , #Container-1").css({
         //     height: '1251px'
         // })

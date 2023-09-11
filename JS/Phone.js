@@ -1,9 +1,34 @@
-// if(screen.width < 980) { 
-//     // do any 480 width stuff here, or simply do nothing
-//     // return;
-// } else {
+if(screen.width < 900) { 
+    function FormOpen() {
+        if (Holder.classList != "Holder-open") {
+            Holder.classList.remove("Holder-open2")
+            Holder.classList.add("Holder-open")
+            Form_fill.classList.remove("Form-show2")
+            Form_fill.classList.add("Form-show")
+            Form.style.display = "flex"
+            para.style.display = "flex"
+            $("#Section-1 , #Container-1").css({
+                height: '1374px'
+            })
+            console.log("a")
+        }
+    
+        else {
+            Holder.classList.remove("Holder-open")
+            Holder.classList.add("Holder-open2")
+            Form_fill.classList.remove("Form-show")
+            Form_fill.classList.add("Form-show2")
+            Form.style.display = "none"
+            para.style.display = "none"
+            console.log("b")
+            $("#Section-1 , #Container-1").css({
+              height : '100vh'
+            })
+        }
+    }
+} else {
 
 
 
 
-// }
+}
