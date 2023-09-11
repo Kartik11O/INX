@@ -22,9 +22,12 @@ body{
     justify-content: center;
     border-radius: 15px 15px 0px 0px;
 }
-
+#Section-1 { 
+    height: 850px;
+}
 #Container-1 {
     align-items: flex-start;
+    height: 850px;
 }
 
 /*Holder */
@@ -54,6 +57,7 @@ body{
     margin: 7px;
     transition: 0.2s;
 }
+/* Font size in para */
 #para {
     font-size: 1.1rem;
 }
@@ -73,7 +77,7 @@ body{
     width: 19%;
     /* height: 0vh; */
     background-color: rgb(0, 0, 0);
-    z-index: 9;
+    z-index: 109;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -162,4 +166,32 @@ ul li a {
 /* This hide the Social PC version */
 #Social{
     display: none !important;
+}
+
+/* changing the form and added btn */
+#Form-fill {
+    position: absolute;
+    z-index: 99;
+}
+#Logo {
+    position: relative;
+   height: 734px;
+}
+#Phone-btn-close{
+    position: absolute;
+    display: none;
+    width: clamp(300px,30vw,460px);
+    background: black;
+    height: 10vh;
+    z-index: 9;
+    bottom: 0;
+    border-radius: 15px 14px 19px 21px;
+}
+#INX-btn{
+    font-family: var(--font);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 4.9rem;
+    border-bottom: 2px solid silver;
 }

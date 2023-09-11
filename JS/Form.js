@@ -22,9 +22,7 @@ function FormOpen() {
         Form_fill.classList.add("Form-show")
         Form.style.display = "flex"
         para.style.display = "flex"
-        // $("#Section-1 , #Container-1").css({
-        //     height: '1251px'
-        // })
+      
         console.log("a")
     }
 
@@ -36,9 +34,7 @@ function FormOpen() {
         Form.style.display = "none"
         para.style.display = "none"
         console.log("b")
-        // $("#Section-1 , #Container-1").css({
-        //   height : '100vh'
-        // })
+        
     }
 }
 
