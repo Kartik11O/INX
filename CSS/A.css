@@ -14,12 +14,15 @@ body {
     position: relative;
     width: clamp(300px, 100vw, 100%);
     height: clamp(300px, 100vh, 100vh);
+    background-color: #CC9966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #Container-1 {
     position: relative;
     width: clamp(300px, 100vw, 1536px);
     height: clamp(300px, 100vh, 100%);
-    background-color: #CC9966;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +31,7 @@ body {
 
 #Holder{
     width: clamp(300px,30vw,460px);
-    height: clamp(300px,88vh,657px);
+    height: clamp(80vh,88vh,657px);
     border-radius: 21px;
     background-color: #000;
     display: flex;
@@ -83,7 +86,7 @@ body {
 #Form-fill{
     position: relative;
     width: 0vw;
-    height: clamp(300px,88vh,657px);
+    height: clamp(80vh,88vh,657px);
     border-radius: 21px;
     display: flex;
     justify-content: center;
@@ -158,7 +161,8 @@ input{
 }
 #para{
     text-align: center;
-    width: 91%;
+    width: clamp(300px,91%,418px);
     color: #ffffffe6;
     font-family: var(--Headline);
+    font-size: 1rem;
 }

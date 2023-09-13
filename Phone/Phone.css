@@ -170,7 +170,7 @@ ul li a {
 #Logo {
     position: relative;
     height: 112%;
-   height: clamp(734px,87vh,734px);
+   /* height: clamp(734px,87vh,734px); */
 }
 #Phone-btn-close{
     position: absolute;
