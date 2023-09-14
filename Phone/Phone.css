@@ -27,6 +27,12 @@ body{
 #Holder {
     flex-wrap: wrap;
     margin-top: 29px;
+    z-index: 999;
+    border: 2px solid red;
+    height: clamp(663px,89vh,800px);
+    /* height: 663px; */
+    /* height: 89vh;*/
+    align-items: start;
 }
 
 /* Dark Mode */
