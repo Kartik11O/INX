@@ -22,13 +22,6 @@ body{
     justify-content: center;
     border-radius: 15px 15px 0px 0px;
 }
-#Section-1 { 
-    height: clamp(94vh,753px,753px);
-}
-#Container-1 {
-    align-items: flex-start;
-    height: clamp(94vh,753px,753px);
-}
 
 /*Holder */
 #Holder {
@@ -169,8 +162,7 @@ ul li a {
 }
 #Logo {
     position: relative;
-    height: 112%;
-   /* height: clamp(734px,87vh,734px); */
+    height: clamp(648px,89vh,89vh);
 }
 #Phone-btn-close{
     position: absolute;
@@ -191,14 +183,10 @@ ul li a {
     border-bottom: 2px solid silver;
 }
 
-/* Video background */
-#video{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+#Section-1 {
+    height: clamp(733px,110vh,110vh);
 }
-#video video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#Container-1 {
+    height: clamp(733px,110vh,110vh);
+    align-items: start;
 }
