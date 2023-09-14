@@ -22,17 +22,18 @@ body{
     justify-content: center;
     border-radius: 15px 15px 0px 0px;
 }
+#Section-1 { 
+    height: clamp(753px,113vh,753px);
+}
+#Container-1 {
+    align-items: flex-start;
+    height: clamp(753px,113vh,753px);
+}
 
 /*Holder */
 #Holder {
     flex-wrap: wrap;
     margin-top: 29px;
-    z-index: 999;
-    border: 2px solid red;
-    height: clamp(663px,89vh,800px);
-    /* height: 663px; */
-    /* height: 89vh;*/
-    align-items: start;
 }
 
 /* Dark Mode */
@@ -168,7 +169,8 @@ ul li a {
 }
 #Logo {
     position: relative;
-    height: clamp(648px,89vh,89vh);
+    height: 112%;
+   /* height: clamp(734px,87vh,734px); */
 }
 #Phone-btn-close{
     position: absolute;
@@ -189,10 +191,14 @@ ul li a {
     border-bottom: 2px solid silver;
 }
 
-#Section-1 {
-    height: clamp(733px,110vh,110vh);
+/* Video background */
+#video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-#Container-1 {
-    height: clamp(733px,110vh,110vh);
-    align-items: start;
+#video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
