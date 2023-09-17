@@ -12,6 +12,7 @@ body{
 
 #main-Phone {
     display: block;
+    background-color: #000;
 }
 
 /* Theme Btns */
@@ -23,11 +24,13 @@ body{
     border-radius: 15px 15px 0px 0px;
 }
 #Section-1 { 
-    height: clamp(753px,113vh,753px);
+    /* height: clamp(753px,113vh,753px); */
+    height: clamp(800px,100vh,844px);
 }
 #Container-1 {
     align-items: flex-start;
-    height: clamp(753px,113vh,753px);
+    /* height: clamp(753px,113vh,753px); */
+    height: clamp(800px,100vh,844px);
 }
 
 /*Holder */
